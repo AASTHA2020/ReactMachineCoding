@@ -1,0 +1,33 @@
+/* src/components/TrafficLight/TrafficLight.css */
+.traffic-container {
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background: gray;
+  }
+  
+  .light.red {
+    background: red;
+  }
+  
+  .light.green {
+    background: green;
+  }
+  
+  .light.yellow {
+    background: yellow;
+  }
+  

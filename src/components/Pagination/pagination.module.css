@@ -1,0 +1,27 @@
+/* src/components/Pagination/Pagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .page-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .page-button:hover {
+    background: #0056b3;
+  }
+  
+  .page-button.disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
+  
